@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+*{
+  box-sizing: border-box;
+}
+.main-container{
+  border: 1px solid red;
+  width: 85%;
+  margin: 60px auto;
+  border: 2px solid #333333;
+  border-radius: 10px;
+  position: relative;
+}
+.div-1,.div-2{
+  border: 2px solid #333333;
+  width: 90%;
+  height: 160px;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px grey;
+  position: relative;
+}
+.div-2{
+  background: #DDDDFF;
+  z-index: -1;
+}
+.card-1,.card-2,.card-3,.card-4,.card-5,.card-6,.card-7,.card-8,.card-9,.card-10{
+  border: 2px solid #333333;
+  width: 78px;
+  height: 120px;
+  float: left;
+  margin-left: 17.5px;
+  margin-top: 18px;
+  border-radius: 10px;
+  background: #666666;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 22px;
+  font-family: cursive;
+  cursor: all-scroll;
+}
+.card-1{position: absolute;left: 0;}
+.card-2{position: absolute;left: 90px;}
+.card-3{position: absolute;left: 183px;}
+.card-4{position: absolute;left: 278px;}
+.card-5{position: absolute;left: 375px;}
+.card-6{position: absolute;left: 471px;}
+.card-7{position: absolute;left: 570px;}
+.card-8{position: absolute;left: 668px;}
+.card-9{position: absolute;left: 765px;}
+.card-10{position: absolute;left: 860px;}
+.accept-1,.accept-2,.accept-3,.accept-4,.accept-5,.accept-6,.accept-7,.accept-8,.accept-9,.accept-10{
+  border: 2px dashed #333333;
+  width: 8%;
+  height: 120px;
+  float: left;
+  margin-left: 17.5px;
+  margin-top: 18px;
+  border-radius: 10px;
+  text-align: center;
+  color: #333333;
+  font-family: sans-serif;
+  padding-top: 47px;
+  background: white;
+}
+.po-pop{
+  position: absolute;
+  top: 150px;
+  left: 320px;
+  width: 400px;
+  height: 170px;
+  border: 3px solid black;
+  z-index: 1000;
+  background: #DDFFDD;
+  box-shadow: 0px 0px 10px grey;
+  border-radius: 10px;
+}

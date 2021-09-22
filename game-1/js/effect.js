@@ -1,0 +1,10 @@
+$(document).ready(function(){
+	$(".drag").draggable({
+        containment:"parent",
+        opacity:'0.5',
+        cursor:'move',
+        cursorAt:{top:-10,left:-10},
+        revert:true,
+        helper:"clone",
+    });
+}); 
